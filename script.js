@@ -76,3 +76,35 @@ cohort36.push("Leo")
 cohort36.pop()  // removes the last name in the list
 cohort36.push("Leo")
 console.log(cohort36)
+
+console.log("--------------------------------");
+
+let list5=[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20]
+for (let i=0; i<list5.length; i++) {
+  console.log(list5)
+}
+
+let list6=["Marlon", "Alan", "Max", "Maryum", "Angelica", "Mariana", "Jasmine", "Lidea", "Aasna", "Britney"]
+for (let i=0; i<list6.length; i++){
+  console.log(list6)
+}
+
+let list7=[02913712093709187, 123, 456, 789, 0]
+for (let i=0; i<list7.length; i++){
+  console.log(list7)
+}
+
+console.log("--------------------------------");
+
+let person={
+  name: "Marlon",
+  age: 18,
+  city: "San Francisco",
+  height: "5'10",}
+
+  console.log(person)
+console.log(person.name)
+console.log(person.age)
+console.log(person.city)
+console.log(person.height)
+

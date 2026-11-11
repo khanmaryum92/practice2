@@ -89,7 +89,7 @@ for (let i=0; i<list6.length; i++){
   console.log(list6)
 }
 
-let list7=[02913712093709187, 123, 456, 789, 0]
+let list7=[123, 456, 789, 0]
 for (let i=0; i<list7.length; i++){
   console.log(list7)
 }
@@ -107,4 +107,20 @@ console.log(person.name)
 console.log(person.age)
 console.log(person.city)
 console.log(person.height)
+console.log("--------------------------------");
 
+let demo=document.getElementsByTagName("p")
+console.log(demo)
+
+let demo2=document.getElementById("demo")
+console.log(demo2)
+
+let demo3=document.getElementsByClassName("demo")
+console.log(demo3)
+
+let demo4=document.getElementById("demo")
+console.log(demo4.textContent)
+demo4.textContent="hello I am Javascript"
+
+let newelement=document.getElementById("music")
+newelement.innerHTML+="<li>Alternative</li>"

@@ -122,5 +122,16 @@ let demo4=document.getElementById("demo")
 console.log(demo4.textContent)
 demo4.textContent="hello I am Javascript"
 
-let newelement=document.getElementById("music")
+let newelement=document.getElementById("genre")
 newelement.innerHTML+="<li>Alternative</li>"
+newelement.innerHTML+="<p>hi</p>"
+newelement.innerHTML+="<h1>hi</h1>"
+
+function changeText() {
+  let coloring=document.getElementById("html")
+  coloring.textContent="The button has been clicked!"
+  coloring.style.color="green"
+}
+
+
+console.log("--------------------------------");
